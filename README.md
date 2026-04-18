@@ -54,6 +54,7 @@ GROUP BY
   medium
 ORDER BY
   user_count DESC
+  
   行	medium	user_count
 1	(none)	2166
 2	referral	313
@@ -75,6 +76,7 @@ GROUP BY
   medium
 ORDER BY
   total_revenue DESC
+  
   行	medium	user_count	total_orders	total_revenue
 1	(none)	2166	44	8872.04
 2	referral	313	1	17.96
@@ -96,6 +98,7 @@ GROUP BY
   source
 ORDER BY
   user_count DESC
+  
   行	source	user_count	total_orders	total_revenue
 1	youtube.com	180	null	null
 2	analytics.google.com	57	null	null
@@ -137,5 +140,6 @@ WHERE
   AND trafficSource.source = 'youtube.com'
 GROUP BY
   source
+  
   行	source	avg_pageviews	avg_time_on_site
 1	youtube.com	1.6611111111111108	190.95121951219511
