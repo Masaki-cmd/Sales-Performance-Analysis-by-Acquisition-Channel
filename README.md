@@ -43,3 +43,25 @@ WHERE
     AND trafficSource.source = 'youtube.com'
 GROUP BY 
     source;
+
+
+【プロジェクト2：商品別パフォーマンスと機会損失の特定】
+課題: YouTubeブランドの商品が高い閲覧数を集めている一方で、成約率（購入数/閲覧数）が極端に低い。
+
+分析結果:
+
+『YouTube Men's Vintage Tank』：閲覧数1,130件に対し、売上0。
+
+『Google Men's Hero Tee』：閲覧数997件に対し、売上98ドル（最高額）。
+
+洞察（インサイト）:
+YouTube関連商品は「認知（見られること）」には大きく貢献しているが、「購買（買いたい）」と思わせる決定打（価格、デザイン、あるいはサイズ感の説明不足）が欠けている。
+
+提案:
+
+人気商品のページ改善: 閲覧数1,000超えの商品の商品紹介文を充実させ、サイズチャートを詳しく載せることで、不安を解消し離脱を防ぐ。
+
+抱き合わせ販売: 成約率の高い「GoogleブランドのTシャツ」と「YouTubeグッズ」をセット購入で割引にするキャンペーンを実施し、YouTubeグッズの在庫回転を上げる。
+
+<img width="1042" height="440" alt="product_name 別の view_count, units_sold, revenue" src="https://github.com/user-attachments/assets/5ff1668f-db90-47d4-bc37-406911606522" />
+
